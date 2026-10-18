@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-trace-replay"
+version = "0.1.0"
+description = "Deterministic trace capture and replay engine for tool-calling agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Shivani Singh Rajawat"}
+]
+dependencies = []
+
+[project.optional-dependencies]
+langgraph = [
+    "langgraph>=0.2.0",
+]
+dev = [
+    "pytest>=8.0.0",
+    "coverage>=7.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
