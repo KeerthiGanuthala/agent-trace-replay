@@ -35,7 +35,7 @@ class MutationFlags:
 class AgentConfig:
     """Configuration for the order-desk agent framework."""
 
-    deadline_ms: float = 250.0
+    deadline_ms: float = 325.0
     max_retries: int = 2
     backoff_ms: float = 28.0
     hiccup_prob: float = 0.075
