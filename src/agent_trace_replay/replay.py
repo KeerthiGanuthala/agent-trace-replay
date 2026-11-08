@@ -141,8 +141,8 @@ class ReplayDriver:
             return str(recorded_choice)
         raise _ReplayDivergenceSignal(
             step_index=step_index,
-            cause=DivergenceCause.CODE_CHANGE,
-            detail=f"Unexpected stochastic choice '{choice_name}' at step {step_index}",
+            cause=self._pending_cause or DivergenceCause.CODE_CHANGE,
+            detail=self._pending_detail or f"Unexpected stochastic choice '{choice_name}' at step {step_index}",
         )
 
     def _fresh_service_ms(self, tool_name: str, call_index: int) -> float:
