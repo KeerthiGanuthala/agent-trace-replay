@@ -1,0 +1,10 @@
+{
+  "checkpoint_resumes_evaluated": 200,
+  "experiment": "exp6_langgraph",
+  "external_langgraph_installed": false,
+  "gateway_trace_replay_exact_matches": 200,
+  "gateway_trace_replay_exact_rate_pct": 100.0,
+  "gateway_trace_replay_writes_fired": 0,
+  "inmemory_saver_duplicate_writes_fired": 200,
+  "runs_evaluated": 200
+}

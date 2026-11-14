@@ -1,0 +1,129 @@
+{
+  "cohort_size": 2000,
+  "experiment": "exp5_drift_sweep",
+  "failed_runs": 466,
+  "plot_path": "docs/experiments/drift_sweep.svg",
+  "sweep": [
+    {
+      "analytic_predicted_exact_pct": 5.08,
+      "epoch_delta": 0,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 3.08,
+      "rerun_exact_matches": 27,
+      "rerun_exact_pct": 5.79,
+      "rerun_kind_match_pct": 41.85,
+      "rerun_kind_matches": 195
+    },
+    {
+      "analytic_predicted_exact_pct": 3.3,
+      "epoch_delta": 1,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 1.73,
+      "rerun_exact_matches": 16,
+      "rerun_exact_pct": 3.43,
+      "rerun_kind_match_pct": 42.27,
+      "rerun_kind_matches": 197
+    },
+    {
+      "analytic_predicted_exact_pct": 2.45,
+      "epoch_delta": 2,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 0.98,
+      "rerun_exact_matches": 14,
+      "rerun_exact_pct": 3.0,
+      "rerun_kind_match_pct": 40.13,
+      "rerun_kind_matches": 187
+    },
+    {
+      "analytic_predicted_exact_pct": 1.99,
+      "epoch_delta": 3,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 0.55,
+      "rerun_exact_matches": 9,
+      "rerun_exact_pct": 1.93,
+      "rerun_kind_match_pct": 39.91,
+      "rerun_kind_matches": 186
+    },
+    {
+      "analytic_predicted_exact_pct": 1.7,
+      "epoch_delta": 4,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 0.31,
+      "rerun_exact_matches": 3,
+      "rerun_exact_pct": 0.64,
+      "rerun_kind_match_pct": 38.84,
+      "rerun_kind_matches": 181
+    },
+    {
+      "analytic_predicted_exact_pct": 1.51,
+      "epoch_delta": 5,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 0.17,
+      "rerun_exact_matches": 4,
+      "rerun_exact_pct": 0.86,
+      "rerun_kind_match_pct": 40.56,
+      "rerun_kind_matches": 189
+    },
+    {
+      "analytic_predicted_exact_pct": 1.37,
+      "epoch_delta": 6,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 0.1,
+      "rerun_exact_matches": 4,
+      "rerun_exact_pct": 0.86,
+      "rerun_kind_match_pct": 38.41,
+      "rerun_kind_matches": 179
+    },
+    {
+      "analytic_predicted_exact_pct": 1.26,
+      "epoch_delta": 7,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 0.06,
+      "rerun_exact_matches": 3,
+      "rerun_exact_pct": 0.64,
+      "rerun_kind_match_pct": 39.27,
+      "rerun_kind_matches": 183
+    },
+    {
+      "analytic_predicted_exact_pct": 1.17,
+      "epoch_delta": 8,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 0.03,
+      "rerun_exact_matches": 6,
+      "rerun_exact_pct": 1.29,
+      "rerun_kind_match_pct": 38.84,
+      "rerun_kind_matches": 181
+    },
+    {
+      "analytic_predicted_exact_pct": 1.1,
+      "epoch_delta": 9,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 0.02,
+      "rerun_exact_matches": 9,
+      "rerun_exact_pct": 1.93,
+      "rerun_kind_match_pct": 37.98,
+      "rerun_kind_matches": 177
+    },
+    {
+      "analytic_predicted_exact_pct": 1.04,
+      "epoch_delta": 10,
+      "l2_replay_exact_matches": 466,
+      "l2_replay_exact_pct": 100.0,
+      "naive_hazard_predicted_pct": 0.01,
+      "rerun_exact_matches": 9,
+      "rerun_exact_pct": 1.93,
+      "rerun_kind_match_pct": 38.41,
+      "rerun_kind_matches": 179
+    }
+  ]
+}

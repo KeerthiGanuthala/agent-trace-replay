@@ -1,0 +1,42 @@
+{
+  "cohort_size": 2000,
+  "experiment": "exp4_localization",
+  "mutations": {
+    "dropped_state_field": {
+      "affected_runs": 1998,
+      "detected_by_final_status": 0,
+      "invisible_to_final_status": 1998,
+      "invisible_to_final_status_pct": 100.0,
+      "l3_pin_rate_pct": 100.0,
+      "l3_pinned_first_step": 1998,
+      "mean_steps_saved_by_l3": 5.65
+    },
+    "extra_retry": {
+      "affected_runs": 24,
+      "detected_by_final_status": 24,
+      "invisible_to_final_status": 0,
+      "invisible_to_final_status_pct": 0.0,
+      "l3_pin_rate_pct": 100.0,
+      "l3_pinned_first_step": 24,
+      "mean_steps_saved_by_l3": 1.0
+    },
+    "fudged_budget_threshold": {
+      "affected_runs": 42,
+      "detected_by_final_status": 42,
+      "invisible_to_final_status": 0,
+      "invisible_to_final_status_pct": 0.0,
+      "l3_pin_rate_pct": 100.0,
+      "l3_pinned_first_step": 42,
+      "mean_steps_saved_by_l3": 2.0
+    },
+    "skipped_backoff": {
+      "affected_runs": 1203,
+      "detected_by_final_status": 179,
+      "invisible_to_final_status": 1024,
+      "invisible_to_final_status_pct": 85.12,
+      "l3_pin_rate_pct": 100.0,
+      "l3_pinned_first_step": 1203,
+      "mean_steps_saved_by_l3": 3.27
+    }
+  }
+}

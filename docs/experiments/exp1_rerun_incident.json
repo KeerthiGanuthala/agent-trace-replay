@@ -1,0 +1,28 @@
+{
+  "cohort_breakdown": {
+    "budget_escalated": 131,
+    "completed": 1534,
+    "deadline_exceeded": 236,
+    "retry_exhausted": 24,
+    "stock_backordered": 75
+  },
+  "cohort_size": 2000,
+  "drift_epochs": 3,
+  "duplicate_effects_by_tool": {
+    "create_ticket": 487,
+    "kv_put": 433,
+    "reserve_stock": 128,
+    "send_notice": 105
+  },
+  "exact_trajectory_rate_pct": 1.5,
+  "exact_trajectory_reproduced": 7,
+  "experiment": "exp1_rerun_incident",
+  "failed_runs": 466,
+  "failure_rate_pct": 23.3,
+  "phantom_success_rate_pct": 22.1,
+  "phantom_successes_on_rerun": 103,
+  "runs_firing_duplicate_writes": 466,
+  "same_failure_kind_rate_pct": 41.85,
+  "same_failure_kind_reproduced": 195,
+  "total_duplicate_side_effects": 1153
+}

@@ -1,0 +1,74 @@
+{
+  "cohort_size": 2000,
+  "experiment": "exp3_capture_ladder",
+  "failed_runs": 466,
+  "levels": {
+    "L0": {
+      "abort_rate_pct": 54.72,
+      "aborted_replays": 255,
+      "byte_overhead_vs_l0_ratio": 1.0,
+      "capture_level": 0,
+      "diverged_rate_pct": 45.28,
+      "diverged_replays": 211,
+      "divergence_causes": {
+        "drifted_read": 211,
+        "uncaptured_result": 255
+      },
+      "exact_rate_pct": 0.0,
+      "exact_replays": 0,
+      "mean_bytes": 2241.5,
+      "runs_evaluated": 466,
+      "total_bytes": 1044521
+    },
+    "L1": {
+      "abort_rate_pct": 0.0,
+      "aborted_replays": 0,
+      "byte_overhead_vs_l0_ratio": 1.39,
+      "capture_level": 1,
+      "diverged_rate_pct": 100.0,
+      "diverged_replays": 466,
+      "divergence_causes": {
+        "clock": 154,
+        "rng": 312
+      },
+      "exact_rate_pct": 0.0,
+      "exact_replays": 0,
+      "mean_bytes": 3112.8,
+      "runs_evaluated": 466,
+      "total_bytes": 1450555
+    },
+    "L2": {
+      "abort_rate_pct": 0.0,
+      "aborted_replays": 0,
+      "byte_overhead_vs_l0_ratio": 1.76,
+      "capture_level": 2,
+      "diverged_rate_pct": 0.0,
+      "diverged_replays": 0,
+      "divergence_causes": {},
+      "exact_rate_pct": 100.0,
+      "exact_replays": 466,
+      "mean_bytes": 3943.0,
+      "runs_evaluated": 466,
+      "total_bytes": 1837436
+    },
+    "L3": {
+      "abort_rate_pct": 0.0,
+      "aborted_replays": 0,
+      "byte_overhead_vs_l0_ratio": 2.3,
+      "capture_level": 3,
+      "diverged_rate_pct": 0.0,
+      "diverged_replays": 0,
+      "divergence_causes": {},
+      "exact_rate_pct": 100.0,
+      "exact_replays": 466,
+      "mean_bytes": 5151.6,
+      "runs_evaluated": 466,
+      "total_bytes": 2400644
+    }
+  },
+  "volatile_fingerprint_ablation": {
+    "runs_tested": 2000,
+    "step_0_divergence_rate_pct": 100.0,
+    "step_0_divergences_when_volatile_included": 2000
+  }
+}

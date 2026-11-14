@@ -1,0 +1,72 @@
+{
+  "cohort_size": 2000,
+  "experiment": "exp2_checkpoint_vs_trace",
+  "failed_runs": 466,
+  "per_failure_kind": {
+    "budget_escalated": {
+      "incidents": 131,
+      "resume_exact_match": 0,
+      "resume_exact_rate_pct": 0.0,
+      "resume_kind_match": 115,
+      "resume_kind_rate_pct": 87.79,
+      "resume_phantom_rate_pct": 10.69,
+      "resume_phantom_success": 14,
+      "resume_refired_writes": 289,
+      "trace_exact_match": 131,
+      "trace_exact_rate_pct": 100.0,
+      "trace_refired_writes": 0
+    },
+    "deadline_exceeded": {
+      "incidents": 236,
+      "resume_exact_match": 0,
+      "resume_exact_rate_pct": 0.0,
+      "resume_kind_match": 236,
+      "resume_kind_rate_pct": 100.0,
+      "resume_phantom_rate_pct": 0.0,
+      "resume_phantom_success": 0,
+      "resume_refired_writes": 236,
+      "trace_exact_match": 236,
+      "trace_exact_rate_pct": 100.0,
+      "trace_refired_writes": 0
+    },
+    "retry_exhausted": {
+      "incidents": 24,
+      "resume_exact_match": 0,
+      "resume_exact_rate_pct": 0.0,
+      "resume_kind_match": 0,
+      "resume_kind_rate_pct": 0.0,
+      "resume_phantom_rate_pct": 79.17,
+      "resume_phantom_success": 19,
+      "resume_refired_writes": 61,
+      "trace_exact_match": 24,
+      "trace_exact_rate_pct": 100.0,
+      "trace_refired_writes": 0
+    },
+    "stock_backordered": {
+      "incidents": 75,
+      "resume_exact_match": 0,
+      "resume_exact_rate_pct": 0.0,
+      "resume_kind_match": 74,
+      "resume_kind_rate_pct": 98.67,
+      "resume_phantom_rate_pct": 0.0,
+      "resume_phantom_success": 0,
+      "resume_refired_writes": 149,
+      "trace_exact_match": 75,
+      "trace_exact_rate_pct": 100.0,
+      "trace_refired_writes": 0
+    }
+  },
+  "totals": {
+    "incidents": 466,
+    "resume_exact_match": 0,
+    "resume_exact_rate_pct": 0.0,
+    "resume_kind_match": 425,
+    "resume_kind_rate_pct": 91.2,
+    "resume_phantom_rate_pct": 7.08,
+    "resume_phantom_success": 33,
+    "resume_refired_writes": 735,
+    "trace_exact_match": 466,
+    "trace_exact_rate_pct": 100.0,
+    "trace_refired_writes": 0
+  }
+}
