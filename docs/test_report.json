@@ -1,0 +1,57 @@
+{
+  "covered_lines": 823,
+  "errors": 0,
+  "executable_lines": 927,
+  "failures": 0,
+  "files": {
+    "__init__.py": {
+      "coverage_pct": 100.0,
+      "covered_lines": 0,
+      "executable_lines": 0
+    },
+    "agent.py": {
+      "coverage_pct": 91.0,
+      "covered_lines": 192,
+      "executable_lines": 211
+    },
+    "analytic.py": {
+      "coverage_pct": 94.62,
+      "covered_lines": 88,
+      "executable_lines": 93
+    },
+    "langgraph_bridge.py": {
+      "coverage_pct": 73.03,
+      "covered_lines": 176,
+      "executable_lines": 241
+    },
+    "replay.py": {
+      "coverage_pct": 92.09,
+      "covered_lines": 128,
+      "executable_lines": 139
+    },
+    "rng.py": {
+      "coverage_pct": 96.43,
+      "covered_lines": 27,
+      "executable_lines": 28
+    },
+    "tools.py": {
+      "coverage_pct": 97.22,
+      "covered_lines": 70,
+      "executable_lines": 72
+    },
+    "trace.py": {
+      "coverage_pct": 98.92,
+      "covered_lines": 92,
+      "executable_lines": 93
+    },
+    "world.py": {
+      "coverage_pct": 100.0,
+      "covered_lines": 50,
+      "executable_lines": 50
+    }
+  },
+  "line_coverage_pct": 88.78,
+  "subtests_run": 304,
+  "test_methods_run": 25,
+  "total_test_cases": 329
+}

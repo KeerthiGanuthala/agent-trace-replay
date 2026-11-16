@@ -1,0 +1,219 @@
+{
+  "cohort": {
+    "budget_escalated": 131,
+    "completed_runs": 1534,
+    "deadline_exceeded": 236,
+    "failed_runs": 466,
+    "failure_rate_pct": 23.3,
+    "retry_exhausted": 24,
+    "stock_backordered": 75,
+    "total_runs": 2000
+  },
+  "exp1": {
+    "dup_create_ticket": 487,
+    "dup_kv_put": 433,
+    "dup_reserve_stock": 128,
+    "dup_send_notice": 105,
+    "exact_trajectory_rate_pct": 1.5,
+    "exact_trajectory_reproduced": 7,
+    "phantom_success_rate_pct": 22.1,
+    "phantom_successes_on_rerun": 103,
+    "runs_firing_duplicate_writes": 466,
+    "same_failure_kind_rate_pct": 41.85,
+    "same_failure_kind_reproduced": 195,
+    "total_duplicate_side_effects": 1153
+  },
+  "exp2": {
+    "per_failure_kind": {
+      "budget_escalated": {
+        "incidents": 131,
+        "resume_exact_match": 0,
+        "resume_exact_rate_pct": 0.0,
+        "resume_kind_match": 115,
+        "resume_kind_rate_pct": 87.79,
+        "resume_phantom_rate_pct": 10.69,
+        "resume_phantom_success": 14,
+        "resume_refired_writes": 289,
+        "trace_exact_match": 131,
+        "trace_exact_rate_pct": 100.0,
+        "trace_refired_writes": 0
+      },
+      "deadline_exceeded": {
+        "incidents": 236,
+        "resume_exact_match": 0,
+        "resume_exact_rate_pct": 0.0,
+        "resume_kind_match": 236,
+        "resume_kind_rate_pct": 100.0,
+        "resume_phantom_rate_pct": 0.0,
+        "resume_phantom_success": 0,
+        "resume_refired_writes": 236,
+        "trace_exact_match": 236,
+        "trace_exact_rate_pct": 100.0,
+        "trace_refired_writes": 0
+      },
+      "retry_exhausted": {
+        "incidents": 24,
+        "resume_exact_match": 0,
+        "resume_exact_rate_pct": 0.0,
+        "resume_kind_match": 0,
+        "resume_kind_rate_pct": 0.0,
+        "resume_phantom_rate_pct": 79.17,
+        "resume_phantom_success": 19,
+        "resume_refired_writes": 61,
+        "trace_exact_match": 24,
+        "trace_exact_rate_pct": 100.0,
+        "trace_refired_writes": 0
+      },
+      "stock_backordered": {
+        "incidents": 75,
+        "resume_exact_match": 0,
+        "resume_exact_rate_pct": 0.0,
+        "resume_kind_match": 74,
+        "resume_kind_rate_pct": 98.67,
+        "resume_phantom_rate_pct": 0.0,
+        "resume_phantom_success": 0,
+        "resume_refired_writes": 149,
+        "trace_exact_match": 75,
+        "trace_exact_rate_pct": 100.0,
+        "trace_refired_writes": 0
+      }
+    },
+    "resume_exact_match": 0,
+    "resume_exact_rate_pct": 0.0,
+    "resume_kind_match": 425,
+    "resume_kind_rate_pct": 91.2,
+    "resume_phantom_rate_pct": 7.08,
+    "resume_phantom_success": 33,
+    "resume_refired_writes": 735,
+    "trace_exact_match": 466,
+    "trace_exact_rate_pct": 100.0,
+    "trace_refired_writes": 0
+  },
+  "exp3": {
+    "L0": {
+      "abort_rate_pct": 54.72,
+      "aborted_replays": 255,
+      "byte_overhead_vs_l0_ratio": 1.0,
+      "capture_level": 0,
+      "diverged_rate_pct": 45.28,
+      "diverged_replays": 211,
+      "divergence_causes": {
+        "drifted_read": 211,
+        "uncaptured_result": 255
+      },
+      "exact_rate_pct": 0.0,
+      "exact_replays": 0,
+      "mean_bytes": 2241.5,
+      "runs_evaluated": 466,
+      "total_bytes": 1044521
+    },
+    "L1": {
+      "abort_rate_pct": 0.0,
+      "aborted_replays": 0,
+      "byte_overhead_vs_l0_ratio": 1.39,
+      "capture_level": 1,
+      "diverged_rate_pct": 100.0,
+      "diverged_replays": 466,
+      "divergence_causes": {
+        "clock": 154,
+        "rng": 312
+      },
+      "exact_rate_pct": 0.0,
+      "exact_replays": 0,
+      "mean_bytes": 3112.8,
+      "runs_evaluated": 466,
+      "total_bytes": 1450555
+    },
+    "L2": {
+      "abort_rate_pct": 0.0,
+      "aborted_replays": 0,
+      "byte_overhead_vs_l0_ratio": 1.76,
+      "capture_level": 2,
+      "diverged_rate_pct": 0.0,
+      "diverged_replays": 0,
+      "divergence_causes": {},
+      "exact_rate_pct": 100.0,
+      "exact_replays": 466,
+      "mean_bytes": 3943.0,
+      "runs_evaluated": 466,
+      "total_bytes": 1837436
+    },
+    "L3": {
+      "abort_rate_pct": 0.0,
+      "aborted_replays": 0,
+      "byte_overhead_vs_l0_ratio": 2.3,
+      "capture_level": 3,
+      "diverged_rate_pct": 0.0,
+      "diverged_replays": 0,
+      "divergence_causes": {},
+      "exact_rate_pct": 100.0,
+      "exact_replays": 466,
+      "mean_bytes": 5151.6,
+      "runs_evaluated": 466,
+      "total_bytes": 2400644
+    },
+    "volatile_step0_divergence_rate_pct": 100.0,
+    "volatile_step0_divergences": 2000
+  },
+  "exp4": {
+    "dropped_state_field": {
+      "affected_runs": 1998,
+      "detected_by_final_status": 0,
+      "invisible_to_final_status": 1998,
+      "invisible_to_final_status_pct": 100.0,
+      "l3_pin_rate_pct": 100.0,
+      "l3_pinned_first_step": 1998,
+      "mean_steps_saved_by_l3": 5.65
+    },
+    "extra_retry": {
+      "affected_runs": 24,
+      "detected_by_final_status": 24,
+      "invisible_to_final_status": 0,
+      "invisible_to_final_status_pct": 0.0,
+      "l3_pin_rate_pct": 100.0,
+      "l3_pinned_first_step": 24,
+      "mean_steps_saved_by_l3": 1.0
+    },
+    "fudged_budget_threshold": {
+      "affected_runs": 42,
+      "detected_by_final_status": 42,
+      "invisible_to_final_status": 0,
+      "invisible_to_final_status_pct": 0.0,
+      "l3_pin_rate_pct": 100.0,
+      "l3_pinned_first_step": 42,
+      "mean_steps_saved_by_l3": 2.0
+    },
+    "skipped_backoff": {
+      "affected_runs": 1203,
+      "detected_by_final_status": 179,
+      "invisible_to_final_status": 1024,
+      "invisible_to_final_status_pct": 85.12,
+      "l3_pin_rate_pct": 100.0,
+      "l3_pinned_first_step": 1203,
+      "mean_steps_saved_by_l3": 3.27
+    }
+  },
+  "exp5": {
+    "e0_rerun_exact_pct": 5.79,
+    "e10_l2_exact_pct": 100.0,
+    "e10_rerun_exact_pct": 1.93,
+    "e10_rerun_kind_pct": 38.41,
+    "e3_analytic_pct": 1.99,
+    "e3_naive_pct": 0.55,
+    "e3_rerun_exact_pct": 1.93,
+    "e5_rerun_exact_pct": 0.86
+  },
+  "exp6": {
+    "gateway_trace_replay_exact_matches": 200,
+    "gateway_trace_replay_exact_rate_pct": 100.0,
+    "gateway_trace_replay_writes_fired": 0,
+    "inmemory_saver_duplicate_writes_fired": 200,
+    "runs_evaluated": 200
+  },
+  "tests": {
+    "line_coverage_pct": 88.78,
+    "subtests_run": 304,
+    "test_methods_run": 25,
+    "total_test_cases": 329
+  }
+}
